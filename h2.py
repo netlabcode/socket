@@ -20,7 +20,7 @@ def test():
     # configure socket and connect to server  
     clientSocket = socket.socket()  
     host = '127.0.0.1'  
-    port = 12000  
+    port = 8777
     clientSocket.connect( ( host, port ) )  
     
     # keep track of connection status  
